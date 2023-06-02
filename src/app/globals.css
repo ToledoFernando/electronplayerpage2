@@ -2,26 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.fromBtoT {
+  top: 9rem;
+  animation: fromBtoT 0.5s forwards;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes fromBtoT {
+  to {
+    top: 2.25rem;
   }
 }
+* {
+  scroll-behavior: smooth !important;
+}
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+body::-webkit-scrollbar {
+  background-color: rgb(9 9 11);
+}
+body::-webkit-scrollbar:vertical {
+  width: 8px;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+body::-webkit-scrollbar-thumb {
+  background-color: #525252;
+  border-radius: 20px;
+  border: 0;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
 }
