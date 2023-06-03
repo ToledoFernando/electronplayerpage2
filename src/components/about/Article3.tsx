@@ -37,12 +37,13 @@ function ArticleAbout3() {
             el estado en aplicaciones JavaScript, aprender y configurar Redux
             puede requerir una curva de aprendizaje inicial, especialmente si
             eres nuevo en el desarrollo de aplicaciones basadas en Redux.
-            Configurar los "reducers", acciones, el "store" y comprender cómo se
-            comunican entre sí puede ser complicado al principio..
+            Configurar los &quot;reducers&quot;, acciones, el &quot;store&quot;
+            y comprender cómo se comunican entre sí puede ser complicado al
+            principio..
           </p>
           <p className="mb-4 ">
-            - En la nueva vercion de ElectronPlayer {"v2"}, se cambio Redux por
-            zustand,
+            - En la nueva vercion de ElectronPlayer &quot;v2&quot;, se cambio
+            Redux por zustand,
           </p>
           <p className="mb-4 ">
             - Zustand es una biblioteca de gestión del estado para aplicaciones

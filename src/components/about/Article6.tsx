@@ -16,7 +16,7 @@ function ArticleAbout6() {
             una base de datos de MongoDB
           </p>
           <p className="mb-4 ">
-            - ElectronPlayer utiliza el packete "ytdl-core" extraer la
+            - ElectronPlayer utiliza el packete &quot;ytdl-core&quot; extraer la
             información relevante, como el título, la duración, las etiquetas y,
             lo más importante, los enlaces de descarga del audio.
           </p>
