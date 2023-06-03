@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function SobreCambios() {
   return (
-    <article className="flex my-20 max-md:flex-col max-sm:p-8 max-sm:pb-0 max-md:p-8 max-md:h-max max-lg:flex-col items-center justify-between bg-black bg-opacity-10 rounded-xl w-11/12 shadow-lg shadow-black m-auto mt-5 relative overflow-hidden">
+    <article className="flex my-20 mt-24 max-md:flex-col max-sm:p-8 max-sm:pb-0 max-md:p-8 max-md:h-max max-lg:flex-col items-center justify-between bg-black bg-opacity-10 rounded-xl w-11/12 shadow-lg shadow-black m-auto relative overflow-hidden">
       <div className="w-7/12 z-50  max-xl:pb-6 px-10 max-sm:px-2 h-max max-md:w-full max-lg:w-10/12 m-auto">
         <div className="m-auto mb-5  max-2xl:text-base max-lg:text-sm">
           <h1 className="text-4xl mb-12 text-center">

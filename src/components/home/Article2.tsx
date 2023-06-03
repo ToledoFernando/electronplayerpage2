@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Article2() {
   return (
-    <div className="grid grid-flow-row grid-cols-2 w-10/12 m-auto my-24 max-lg:grid-cols-1 max-lg:justify-center">
+    <div className="grid grid-flow-row grid-cols-2 w-10/12 m-auto max-lg:grid-cols-1 max-lg:justify-center">
       <Image
         src="/ElectronPlayer2.png"
         width={900}
