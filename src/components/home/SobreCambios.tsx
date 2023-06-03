@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function SobreCambios() {
   return (
     <article className="flex my-20 mt-24 max-md:flex-col max-sm:p-8 max-sm:pb-0 max-md:p-8 max-md:h-max max-lg:flex-col items-center justify-between bg-black bg-opacity-10 rounded-xl w-11/12 shadow-lg shadow-black m-auto relative overflow-hidden">
       <div className="w-7/12 z-50  max-xl:pb-6 px-10 max-sm:px-2 h-max max-md:w-full max-lg:w-10/12 m-auto">
         <div className="m-auto mb-5  max-2xl:text-base max-lg:text-sm">
-          <h1 className="text-4xl mb-12 text-center">
-            Detalle sobre los cambios
+          <h1 className="text-4xl mb-12 text-center max-lg:pt-10">
+            Cambios en la aplicación
           </h1>
           <section>
             <dl>
@@ -62,14 +63,22 @@ function SobreCambios() {
             </dl>
           </section>
         </div>
-        <a
-          target="_blank"
-          href="#"
-          className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
-          rel="noopener noreferrer"
-        >
-          Ver en GitHub
-        </a>
+        <div className="flex justify-around">
+          <a
+            target="_blank"
+            href="#"
+            className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
+            rel="noopener noreferrer"
+          >
+            Ver en GitHub
+          </a>
+          <Link
+            className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
+            href="/about"
+          >
+            Ver mas detalle
+          </Link>
+        </div>
       </div>
       <span className="absolute bg-red-500 text-white text-xl w-96 h-96 max-md:-right-28 -top-40 right-0  blur-3xl rounded-full"></span>
       <span className="absolute bg-slate-800 text-white text-xl w-5/12 h-96 max-md:-left-0 max-md:-bottom-4 max-md:bg-slate-600 -top-40 -left-20 blur-3xl rounded-full"></span>

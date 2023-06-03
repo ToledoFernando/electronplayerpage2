@@ -9,19 +9,23 @@ function ArticleAbout() {
           <div className="m-auto mb-5 pt-4 max-2xl:text-base max-lg:text-sm">
             <h1 className="text-3xl mb-2 text-center">ElectronPlayer v2</h1>
             <p className="text-base max-xl:text-sm ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              molestiae distinctio voluptates laudantium quis ullam obcaecati
-              earum rem sapiente? Veniam unde sunt animi molestias similique
-              ipsum, optio tenetur. Soluta doloremque maiores a error est
-              repellat, tenetur neque similique tempora laboriosam corrupti quae
-              blanditiis iste, accusantium itaque sint veniam sit quis? Odit,
-              illo. Reprehenderit cupiditate veniam necessitatibus molestiae
-              repellendus eum, laborum alias. Consectetur nisi iste corrupti,
-              repellat dicta explicabo illum blanditiis beatae labore laborum
-              quis corporis ullam debitis earum. Delectus distinctio praesentium
-              sint rerum tenetur, ipsa quo repudiandae nulla at cupiditate
-              minima illum soluta incidunt facere fuga excepturi ut libero
-              aspernatur.
+              ElectronPlayer es un reproductor de música disponible en sistemas
+              operativos Windows. ElectronPlayer ofrece la posibilidad de
+              escuchar música sin conexión y de manera local. Lee el directorio
+              &quot;Music&quot; o &quot;Música&quot; (dependiendo del idioma de
+              su sistema) y muestra la lista de música en formato
+              &quot;.mp3&quot;. También muestra una lista de carpetas donde se
+              podrá mover entre ellas y escuchar las músicas de dichas carpetas.
+              ElectronPlayer utiliza una estructura de datos conocida como
+              &quot;lista doblemente enlazada&quot; o &quot;doubly linked
+              list&quot; para moverse entre las músicas, lo que le permite
+              seleccionar una música y poder saber cuál es la
+              &quot;siguiente&quot; o &quot;anterior&quot;. Una vez seleccionada
+              la música, ElectronPlayer (en el proceso principal) lee el archivo
+              en formato &quot;buffer&quot; y lo envía al proceso de renderizado
+              (lo que el usuario ve) para luego pasarlo a un formato que sea
+              capaz de interactuar como audio en el proceso de renderizado, en
+              este caso &quot;blob&quot;.
             </p>
           </div>
           <a

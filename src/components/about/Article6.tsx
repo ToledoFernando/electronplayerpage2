@@ -20,6 +20,12 @@ function ArticleAbout6() {
             información relevante, como el título, la duración, las etiquetas y,
             lo más importante, los enlaces de descarga del audio.
           </p>
+          <p className="mb-4 ">
+            - ElectronPlayer tambien ofrece un boton de &quot;Algun
+            problema&quot; en el cual puede reportar algun fallo en alguna
+            musica (no se escucha, no carga, etc). El Boton aparecera cuando
+            escuche alguna musica del servidor.
+          </p>
         </div>
       </div>
       <div className="w-5/12 max-lg:w-10/12 max-lg:m-auto text-center">

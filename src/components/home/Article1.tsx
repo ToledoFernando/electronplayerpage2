@@ -11,16 +11,16 @@ function Article1() {
             <h1 className="text-3xl mb-2 text-center">ElectronPlayer v2</h1>
             <p className="text-base max-xl:text-sm">
               ¡La nueva versión ya está disponible! Hemos realizado cambios
-              significativos en nuestra aplicación. Se han modificado toda la
-              interfaz. Agregamos nuevas funcionalidades para escuchar musica
-              online, hemos mejorado el buscador para dar de 12 a 20 resultados
-              por nombre de musica. Puedes escucharla en streaming o descargarla
-              para disfrutarla sin conexión. Si deseas obtener más detalles
-              sobre todas las mejoras, puedes encontrarlos{" "}
+              significativos en nuestra aplicación. Se ha modificado toda la
+              interfaz. Hemos agregado nuevas funcionalidades para escuchar
+              música en línea. Además, hemos mejorado el buscador para mostrar
+              de 12 a 20 resultados por nombre de música. Puedes escucharla en
+              streaming o descargarla para disfrutarla sin conexión. Si deseas
+              obtener más detalles sobre todas las mejoras, puedes encontrarlos
               <Link href="#" className="underline">
-                Aqui
+                aquí
               </Link>{" "}
-              o ver el codigo fuente dando click en el boton de abajo.
+              o ver el código fuente haciendo clic en el botón de abajo.
             </p>
           </div>
           <a
