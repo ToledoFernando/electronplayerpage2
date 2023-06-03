@@ -19,11 +19,20 @@ function page() {
       <NavBar />
       <main>
         <ArticleAbout />
-        <ArticleAbout2 />
-        <ArticleAbout3 />
-        <ArticleAbout4 />
-        <ArticleAbout5 />
-        <ArticleAbout6 />
+        <h2 className="text-4xl mt-14  text-center">
+          Detalles sobre los cambios
+        </h2>
+        <p className="text-lg text-slate-600 mb-8 text-center">
+          Aqui podras ver mas a detalle sobre los cambios realizados en la
+          ultima vercion
+        </p>
+        <section className=" border-dashed border-slate-600 border-y-2 pb-14">
+          <ArticleAbout2 />
+          <ArticleAbout3 />
+          <ArticleAbout4 />
+          <ArticleAbout5 />
+          <ArticleAbout6 />
+        </section>
       </main>
       <Footer />
     </>
