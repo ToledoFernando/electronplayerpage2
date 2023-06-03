@@ -24,13 +24,14 @@ function ArticleAbout5() {
             disfrutarla sin conexión a Internet.
           </p>
           <p className="mb-4">
-            - ElectronPlayer utiliza los paquetes npm "ytdl-search" para buscar
-            información sobre la música y "ytdl-core" para descargar y guardar
-            la música localmente en tu dispositivo.
+            - ElectronPlayer utiliza los paquetes npm &quot;ytdl-search&quot;
+            para buscar información sobre la música y &quot;ytdl-core&quot; para
+            descargar y guardar la música localmente en tu dispositivo.
           </p>
           <p className="mb-4">
-            - Las descargas se almacenan en la carpeta "/Music" o "/Musica",
-            dependiendo del idioma del dispositivo, en formato .mp3.
+            - Las descargas se almacenan en la carpeta &quot;/Music&quot; o
+            &quot;/Musica&quot;, dependiendo del idioma del dispositivo, en
+            formato .mp3.
           </p>
         </div>
       </div>

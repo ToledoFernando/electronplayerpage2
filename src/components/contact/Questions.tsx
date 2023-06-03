@@ -26,9 +26,10 @@ function Questions() {
                 aplicación?
               </dt>
               <dd>
-                ElectronPlayer lee y muestras archivos en formato ".MP3" que
-                esten dentro de la carpeta "Music" o "Musica" dependiendo el
-                idioma del sistema en el que se ejecute.
+                ElectronPlayer lee y muestras archivos en formato
+                &quot;.MP3&quot; que esten dentro de la carpeta
+                &quot;Music&quot; o &quot;Musica&quot; dependiendo el idioma del
+                sistema en el que se ejecute.
               </dd>
             </dl>
           </div>
@@ -42,7 +43,8 @@ function Questions() {
               <dd>
                 Si, ElectronPlayer permite la descarga de musica para escucharla
                 sin conexion. Las musicas descargadas se guardaran
-                automaticamente en la carpeta "Music" o "Musica".
+                automaticamente en la carpeta &quot;Music&quot; o
+                &quot;Musica&quot;.
               </dd>
             </dl>
           </div>
