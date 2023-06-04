@@ -38,9 +38,9 @@ function NavBar() {
               <li className="hover:text-white max-sm:my-1">
                 <Link href="/about">Sobre</Link>
               </li>
-              <li className="hover:text-white max-sm:my-1">
+              {/* <li className="hover:text-white max-sm:my-1">
                 <Link href="/download">Descargar</Link>
-              </li>
+              </li> */}
               <li className="hover:text-white max-sm:my-1">
                 <Link href="/contact">Soporte</Link>
               </li>

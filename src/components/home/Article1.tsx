@@ -16,21 +16,29 @@ function Article1() {
               música en línea. Además, hemos mejorado el buscador para mostrar
               de 12 a 20 resultados por nombre de música. Puedes escucharla en
               streaming o descargarla para disfrutarla sin conexión. Si deseas
-              obtener más detalles sobre todas las mejoras, puedes encontrarlos
+              obtener más detalles sobre todas las mejoras, puedes encontrarlos{" "}
               <Link href="#" className="underline">
                 aquí
               </Link>{" "}
               o ver el código fuente haciendo clic en el botón de abajo.
             </p>
           </div>
-          <a
-            target="_blank"
-            href="#"
-            className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
-            rel="noopener noreferrer"
-          >
-            Ver en GitHub
-          </a>
+          <div className="pt-4 flex gap-8">
+            <a
+              target="_blank"
+              href="#"
+              className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
+              rel="noopener noreferrer"
+            >
+              Ver en GitHub
+            </a>
+            <Link
+              className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
+              href="/download"
+            >
+              Descargar
+            </Link>
+          </div>
         </div>
         <span className="absolute bg-red-500 text-white text-xl w-96 h-96 max-md:-right-28 -top-40 right-0  blur-3xl rounded-full"></span>
         <span className="absolute bg-slate-800 text-white text-xl w-5/12 h-96 max-md:-left-0 max-md:-bottom-4 max-md:bg-slate-600 -bottom-40 -left-20 blur-3xl rounded-full"></span>

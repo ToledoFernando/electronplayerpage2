@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <NavBar />
       <Article1 />
-      <section className="border-y-2 border-gray-700 border-dashed pt-16 mt-16">
+      <section className="border-y-2 border-opacity-80 border-gray-900 border-dashed pt-16 mt-16">
         <Article2 />
         <Article3 />
         <Article4 />

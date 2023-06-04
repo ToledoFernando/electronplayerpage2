@@ -88,8 +88,8 @@ function SobreCambios() {
           className="max-lg:relative  lg:absolute lg:scale-150 max-sm:max-w-xl max-lg:top-5 max-md:-left-0 lg:-right-48 lg:bottom-10 rounded-3xl shadow-lg shadow-black hover:shadow-xl hover:shadow-black transition-all duration-300 hover:-translate-y-1"
           src="/ElectronPlayer9.png"
           alt="image"
-          width={900}
-          height={700}
+          width={1000}
+          height={800}
         />
       </div>
     </article>

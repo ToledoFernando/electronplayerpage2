@@ -1,0 +1,18 @@
+[
+  {
+    "question": "¿Es de código abierto?",
+    "answer": "Si, ElectronPlayer es de código abierto. Puedes ver el código dando clic en el enlace de abajo."
+  },
+  {
+    "question": "¿Qué formatos de archivo de música son compatibles con la aplicación?",
+    "answer": "ElectronPlayer lee y muestras archivos en formato '.MP3' que esten dentro de la carpeta 'Music' o 'Musica' dependiendo el idioma del sistema en el que se ejecute."
+  },
+  {
+    "question": "¿La aplicación permite descargar música para escuchar sin conexión?",
+    "answer": "Si, ElectronPlayer permite la descarga de musica para escucharla sin conexion. Las musicas descargadas se guardaran automaticamente en la carpeta 'Music' o 'Musica'."
+  },
+  {
+    "question": "¿Cuál es el modelo de precios de ElectronPlayer?",
+    "answer": "ElectronPlayer es completamente gratuito y de uso libre. Puedes disfrutar de todas sus funciones sin tener que pagar ninguna tarifa."
+  }
+]

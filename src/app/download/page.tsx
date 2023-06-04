@@ -1,10 +1,17 @@
+import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar/NavBar";
+import ArticleDownload1 from "@/components/download/Article1";
 import React from "react";
 
 function page() {
   return (
-    <div>
-      <h1>Gracias por descargar</h1>
-    </div>
+    <>
+      <NavBar />
+      <main>
+        <ArticleDownload1 />
+      </main>
+      <Footer />
+    </>
   );
 }
 
