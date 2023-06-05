@@ -9,12 +9,11 @@ function Article3() {
           Escucha musica sin conexion
         </h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis a
-          id dolore accusantium inventore deserunt rerum consectetur minus eum
-          quam quaerat, eveniet, assumenda tempora blanditiis iusto. Reiciendis
-          suscipit alias nemo rerum. Optio, iste suscipit! Rem similique
-          doloribus nostrum, voluptate veritatis obcaecati optio aperiam fuga
-          ratione consequuntur eligendi. Laudantium, distinctio unde.
+          ElectronPlayer lee la carpeta 'Music' o 'Música' (dependiendo del
+          idioma de tu sistema) y muestra una lista de todos los archivos en
+          formato '.mp3'. Además, también muestra una lista de las carpetas que
+          se encuentren en el mismo directorio, permitiéndote navegar entre
+          ellas.
         </p>
       </div>
       <Image

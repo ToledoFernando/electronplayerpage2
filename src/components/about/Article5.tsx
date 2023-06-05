@@ -9,6 +9,7 @@ function ArticleAbout5() {
           className="ml-10 w-full p-0 max-lg:w-10/12 max-sm:w-full max-lg:mt-10 max-lg:m-auto my-10 h-auto rounded-3xl  hover:-translate-y-1 transition-all duration-300"
           src="/ElectronPlayer6.png"
           width={900}
+          title="buscador de electronPlayer"
           height={700}
           alt="redux-logo"
         />
