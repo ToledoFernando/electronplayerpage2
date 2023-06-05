@@ -35,7 +35,7 @@ function ArticleAbout4() {
       </div>
       <div className="w-4/12 max-lg:w-10/12 flex flex-col justify-center items-center max-lg:m-auto text-center">
         <Image
-          title="ElectronPlayer v2"
+          title="Javascript logo"
           className="w-3/12 relative -left-20 my-10 max-sm:w-3/6 max-lg:w-1/6 max-lg:m-auto max-lg:mt-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
           src="/javascript.svg"
           width={900}
@@ -44,7 +44,7 @@ function ArticleAbout4() {
         />
         <Image
           className="w-2/6 relative left-10 max-lg:w-2/6 max-sm:w-8/12 max-lg:mt-10 max-lg:m-auto my-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
-          title="ElectronPlayer v1"
+          title="Typescript logo"
           src="/typescript.svg"
           width={900}
           height={700}

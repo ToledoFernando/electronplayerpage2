@@ -16,12 +16,13 @@ function Article2() {
           Nueva interfaz de busqueda
         </h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis a
-          id dolore accusantium inventore deserunt rerum consectetur minus eum
-          quam quaerat, eveniet, assumenda tempora blanditiis iusto. Reiciendis
-          suscipit alias nemo rerum. Optio, iste suscipit! Rem similique
-          doloribus nostrum, voluptate veritatis obcaecati optio aperiam fuga
-          ratione consequuntur eligendi. Laudantium, distinctio unde.
+          Aunque ElectronPlayer ya utilizaba SASS (Syntactically Awesome Style
+          Sheets), en esta nueva versión hemos cambiado la sintaxis a SCSS para
+          lograr una mayor legibilidad. Además, hemos realizado cambios
+          significativos en los estilos, lo que ha resultado en una interfaz
+          completamente renovada que es más agradable y amigable para el
+          usuario. Ahora podrás disfrutar de una experiencia visual mejorada y
+          una interfaz más intuitiva.
         </p>
       </div>
     </div>

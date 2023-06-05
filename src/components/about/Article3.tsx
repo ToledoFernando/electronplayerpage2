@@ -7,14 +7,14 @@ function ArticleAbout3() {
       <div className="w-5/12 pt-0 max-sm:flex-col sm:w-full lg:w-5/12 flex flex-col items-center justify-center max-lg:flex max-lg:flex-row max-lg:pt-0 max-lg:w-10/12 max-lg:m-auto text-center">
         <Image
           className="w-2/4 p-0 max-lg:w-1/6 max-sm:w-3/6 max-lg:mt-10 max-lg:m-auto my-10 h-auto rounded-md  hover:-translate-y-1 transition-all duration-300"
-          title="ElectronPlayer v1"
+          title="Redux logo"
           src="/redux.svg"
           width={900}
           height={700}
           alt="redux-logo"
         />
         <Image
-          title="ElectronPlayer v2"
+          title="Zustand logo"
           className="w-5/6 my-10 max-sm:w-full max-lg:w-2/6 max-lg:m-auto max-lg:mt-10 h-auto rounded-md  hover:-translate-y-1 transition-all duration-300"
           src="/zustandLogo.png"
           width={900}

@@ -16,12 +16,10 @@ function Article4() {
           Descarga tu musica preferida
         </h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis a
-          id dolore accusantium inventore deserunt rerum consectetur minus eum
-          quam quaerat, eveniet, assumenda tempora blanditiis iusto. Reiciendis
-          suscipit alias nemo rerum. Optio, iste suscipit! Rem similique
-          doloribus nostrum, voluptate veritatis obcaecati optio aperiam fuga
-          ratione consequuntur eligendi. Laudantium, distinctio unde.
+          Puedes buscar y descargar tu música favorita. Al ingresar un nombre,
+          ElectronPlayer te mostrará entre 12 y 20 canciones relacionadas con el
+          nombre que estás buscando. Tendrás la opción de escuchar o descargar
+          las canciones que prefieras.
         </p>
       </div>
     </div>

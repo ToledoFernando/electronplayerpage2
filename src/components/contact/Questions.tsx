@@ -52,6 +52,8 @@ function Questions() {
     }
   };
 
+  console.log(process.env.NEXT_PUBLIC_API_URL);
+
   return (
     <section>
       <div className="flex items-center max-lg:flex-col">

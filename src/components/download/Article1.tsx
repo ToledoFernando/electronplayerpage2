@@ -1,7 +1,21 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
+import { getFile } from "./config/FirebaseConfig";
 import Image from "next/image";
 
 function ArticleDownload1() {
+  const [urlFile, setURLFile] = useState<string>("");
+
+  useEffect(() => {
+    getFile().then((url) => {
+      setURLFile(url);
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", process.env.NEXT_PUBLIC_NAME_APP as string);
+      link.click();
+    });
+  }, []);
+
   return (
     <div>
       <h1 className="text-4xl text-center pt-24 pb-4 w-10/12 m-auto">
@@ -10,7 +24,11 @@ function ArticleDownload1() {
       <div className="text-center text-lg text-slate-500 flex w-10/12 m-auto justify-center gap-1 items-center">
         <p>
           La descarga iniciara en unos momentos. Si no inicia de click{" "}
-          <a href="#" className="underline">
+          <a
+            href={urlFile}
+            download={process.env.NEXT_PUBLIC_NAME_APP}
+            className="underline"
+          >
             Aqui
           </a>
         </p>

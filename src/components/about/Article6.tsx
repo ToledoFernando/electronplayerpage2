@@ -32,6 +32,7 @@ function ArticleAbout6() {
         <Image
           className="w-full my-10 max-sm:w-full max-lg:w-4/6 max-lg:m-auto max-lg:mt-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
           src="/ElectronPLayer1.png"
+          title="servidor de ElectronPlayer"
           width={900}
           height={700}
           alt="page-musics-online"
