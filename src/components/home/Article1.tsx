@@ -6,8 +6,8 @@ function Article1() {
   return (
     <article>
       <div className="flex max-md:flex-col max-md:p-8 max-md:h-max max-lg:flex-col items-center justify-between bg-black bg-opacity-10 rounded-xl w-11/12 shadow-lg shadow-black m-auto mt-5 relative overflow-hidden">
-        <div className="w-7/12 z-50 max-xl:pb-6 px-10 max-sm:px-2 h-max max-md:w-full max-lg:w-10/12 m-auto">
-          <div className="m-auto mb-5 pt-4 max-2xl:text-base max-lg:text-sm">
+        <div className="w-7/12 flex flex-col z-50 max-xl:pb-6 px-10 max-sm:px-2 h-max max-md:w-full max-lg:w-10/12 m-auto">
+          <div className="m-auto mb-5 pt-4 h-5/6 max-2xl:text-base max-lg:text-sm">
             <h1 className="text-3xl mb-2 text-center">ElectronPlayer v2</h1>
             <p className="text-base max-xl:text-sm">
               ¡La nueva versión ya está disponible! Hemos realizado cambios
@@ -23,10 +23,10 @@ function Article1() {
               o ver el código fuente haciendo clic en el botón de abajo.
             </p>
           </div>
-          <div className="pt-4 flex gap-8">
+          <div className="h-1/6 flex gap-8">
             <a
               target="_blank"
-              href="#"
+              href="https://github.com/ToledoFernando/newElectronPlayer/tree/master"
               className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
               rel="noopener noreferrer"
             >
@@ -45,8 +45,9 @@ function Article1() {
         <div className=" relative w-6/12 max-lg:w-full max-sm:w-screen max-lg:-right-9  max-md:w-full -right-8 -bottom-8 overflow-hidden h-30">
           <Image
             className="relative fromBtoT max-sm:max-w-xl top-9 max-lg:top-5 max-md:-left-0 left-8 rounded-3xl shadow-lg shadow-black hover:shadow-xl hover:shadow-black transition-all duration-300 hover:-translate-y-1"
-            src="/ElectronPlayer1.png"
-            alt="image"
+            // src="/ElectronPlayer1.png"
+            src={"https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/ElectronPlayer1.png?alt=media&token=ca20c8e6-c439-4f68-8d59-0de101b12084&_gl=1*4ts1g3*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1ODczNC4wLjAuMA"}
+            alt="ElectronPlayer - Home"
             width={900}
             height={700}
           />

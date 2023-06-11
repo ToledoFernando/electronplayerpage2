@@ -5,7 +5,7 @@ function Article2() {
   return (
     <div className="grid grid-flow-row grid-cols-2 w-10/12 m-auto max-lg:grid-cols-1 max-lg:justify-center">
       <Image
-        src="/ElectronPlayer2.png"
+        src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/ElectronPlayer2.png?alt=media&token=22b11665-36eb-4ce5-8e74-a17692bdd9de&_gl=1*evff1k*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1OTMzNC4wLjAuMA.."
         width={900}
         height={700}
         alt="interfaz-busqueda"

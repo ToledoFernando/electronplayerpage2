@@ -35,7 +35,7 @@ function Questions() {
     e.preventDefault();
     try {
       setLoad(true);
-      const { data } = await axios.post(
+      await axios.post(
         process.env.NEXT_PUBLIC_API_URL + "email/send-soport",
         formData,
         {
@@ -51,8 +51,6 @@ function Questions() {
       console.log(error.message);
     }
   };
-
-  console.log(process.env.NEXT_PUBLIC_API_URL);
 
   return (
     <section>

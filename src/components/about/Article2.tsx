@@ -40,7 +40,7 @@ function ArticleAbout2() {
         <Image
           className="w-5/6 max-lg:w-4/6 max-sm:w-full max-lg:mt-10 max-lg:m-auto my-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
           title="ElectronPlayer v1"
-          src="/vAnterior.webp"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/vAnterior.webp?alt=media&token=dcf412f4-5158-45e5-982d-f050e0e7d336&_gl=1*1qx1xsf*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1OTY2NS4wLjAuMA.."
           width={900}
           height={700}
           alt="vercion-anterior"
@@ -48,7 +48,7 @@ function ArticleAbout2() {
         <Image
           title="ElectronPlayer v2"
           className="w-full my-10 max-sm:w-full max-lg:w-4/6 max-lg:m-auto max-lg:mt-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
-          src="/ElectronPLayer8.png"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/ElectronPlayer8.png?alt=media&token=93e82b26-8fb7-4727-ad6c-7f80085bb59e&_gl=1*1axejql*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1OTM4MC4wLjAuMA.."
           width={900}
           height={700}
           alt="vercion-nueva"

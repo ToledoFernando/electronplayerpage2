@@ -40,8 +40,8 @@ function ArticleDownload1() {
         <div className=" relative w-full -bottom-3 max-lg:flex max-lg:justify-center justify-center flex max-lg:w-full max-sm:w-screen  max-md:w-full  overflow-hidden lg:h-96  max-lg:h-30">
           <Image
             className="max-lg:relative max-lg:scale-100 max-lg:w-5/6 max-sm:top-2 top-16 lg:absolute lg:scale-120 max-sm:max-w-xl max-lg:top-20 max-md:-left-0 lg:bottom-10 rounded-3xl shadow-lg shadow-black hover:shadow-xl hover:shadow-black transition-all duration-300 hover:-translate-y-1"
-            src="/ElectronPlayer9.png"
-            alt="image"
+            src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/ElectronPlayer9.png?alt=media&token=d1395ef0-fb6a-42f5-9ff8-4bff472f458c&_gl=1*syjsud*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ2MDQ0NS4wLjAuMA.."
+            alt="Gracias por descargar"
             width={900}
             height={700}
           />

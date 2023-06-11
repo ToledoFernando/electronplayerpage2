@@ -8,7 +8,8 @@ function ArticleAbout3() {
         <Image
           className="w-2/4 p-0 max-lg:w-1/6 max-sm:w-3/6 max-lg:mt-10 max-lg:m-auto my-10 h-auto rounded-md  hover:-translate-y-1 transition-all duration-300"
           title="Redux logo"
-          src="/redux.svg"
+          // src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/redux.svg?alt=media&token=4bf2af4f-a807-4e62-8205-1fa5db470e96&_gl=1*2ncmib*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1OTczMC4wLjAuMA.."
+          src={"https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/reduxLogo-removebg-preview.png?alt=media&token=43d1c1ab-9fd7-4926-8b01-937ec257183a&_gl=1*1cjloq2*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1OTkxNi4wLjAuMA.."}
           width={900}
           height={700}
           alt="redux-logo"
@@ -16,7 +17,7 @@ function ArticleAbout3() {
         <Image
           title="Zustand logo"
           className="w-5/6 my-10 max-sm:w-full max-lg:w-2/6 max-lg:m-auto max-lg:mt-10 h-auto rounded-md  hover:-translate-y-1 transition-all duration-300"
-          src="/zustandLogo.png"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/zustandLogo.png?alt=media&token=de112b0b-21ad-4fc8-b8ee-8237c2197dc0&_gl=1*n95vy3*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1OTc1MC4wLjAuMA.."
           width={900}
           height={700}
           alt="zustand-logo"

@@ -37,7 +37,7 @@ function ArticleAbout4() {
         <Image
           title="Javascript logo"
           className="w-3/12 relative -left-20 my-10 max-sm:w-3/6 max-lg:w-1/6 max-lg:m-auto max-lg:mt-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
-          src="/javascript.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/logo-javascript-512-removebg-preview.png?alt=media&token=09d1a7cf-b066-4e6b-8067-af17832c32ff&_gl=1*10hl4gx*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ2MDIwOC4wLjAuMA.."
           width={900}
           height={700}
           alt="javascript-logo"
@@ -45,7 +45,7 @@ function ArticleAbout4() {
         <Image
           className="w-2/6 relative left-10 max-lg:w-2/6 max-sm:w-8/12 max-lg:mt-10 max-lg:m-auto my-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
           title="Typescript logo"
-          src="/typescript.svg"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/typescript-removebg-preview.png?alt=media&token=879048bc-ae20-44f9-b5ff-7a4c8d985a1f&_gl=1*qiwr4m*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ2MDIyMy4wLjAuMA.."
           width={900}
           height={700}
           alt="typescript-logo"
