@@ -10,7 +10,7 @@ function NavBar() {
 
   return (
     <header>
-      <nav className="flex justify-between items-center py-4 px-8 max-sm:flex-col">
+      <nav className="flex justify-between bg-black items-center py-4 px-8 max-sm:flex-col">
         <div className="absolute right-4 top-3 sm:hidden">
           <Button state={viewMenu} setState={setMenuView} />
         </div>

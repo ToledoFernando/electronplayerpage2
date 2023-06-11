@@ -31,7 +31,7 @@ function ArticleAbout6() {
       <div className="w-5/12 max-lg:w-10/12 max-lg:m-auto text-center">
         <Image
           className="w-full my-10 max-sm:w-full max-lg:w-4/6 max-lg:m-auto max-lg:mt-10 h-auto rounded-md shadow-lg shadow-black hover:shadow-xl hover:shadow-black hover:-translate-y-1 transition-all duration-300"
-          src="/ElectronPLayer1.png"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/ElectronPlayer1.png?alt=media&token=ca20c8e6-c439-4f68-8d59-0de101b12084&_gl=1*1ixm3fr*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ2MDI5Ni4wLjAuMA.."
           title="servidor de ElectronPlayer"
           width={900}
           height={700}

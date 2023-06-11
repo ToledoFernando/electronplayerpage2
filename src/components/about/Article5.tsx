@@ -7,7 +7,7 @@ function ArticleAbout5() {
       <div className="w-6/12 pt-0 max-sm:flex-col sm:w-full lg:w-5/12 flex flex-col items-center justify-center max-lg:flex max-lg:flex-row max-lg:pt-0 max-lg:w-10/12 max-lg:m-auto text-center">
         <Image
           className="ml-10 w-full p-0 max-lg:w-10/12 max-sm:w-full max-lg:mt-10 max-lg:m-auto my-10 h-auto rounded-3xl  hover:-translate-y-1 transition-all duration-300"
-          src="/ElectronPlayer6.png"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/ElectronPlayer6.png?alt=media&token=3afd25bd-21df-45de-9b91-9ee6fe7d9c08&_gl=1*1f7i9xb*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ2MDI2Ni4wLjAuMA.."
           width={900}
           title="buscador de electronPlayer"
           height={700}

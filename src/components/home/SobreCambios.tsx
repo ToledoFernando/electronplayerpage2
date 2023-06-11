@@ -4,10 +4,10 @@ import Link from "next/link";
 
 function SobreCambios() {
   return (
-    <article className="flex my-20 mt-24 max-md:flex-col max-sm:p-8 max-sm:pb-0 max-md:p-8 max-md:h-max max-lg:flex-col items-center justify-between bg-black bg-opacity-10 rounded-xl w-11/12 shadow-lg shadow-black m-auto relative overflow-hidden">
+    <article className="flex my-20 mt-24 py-3 max-md:flex-col max-sm:p-8 max-sm:pb-0 max-md:p-8 max-md:h-max max-lg:flex-col items-center justify-between bg-black bg-opacity-10 rounded-xl w-11/12 shadow-lg shadow-black m-auto relative overflow-hidden">
       <div className="w-7/12 z-50  max-xl:pb-6 px-10 max-sm:px-2 h-max max-md:w-full max-lg:w-10/12 m-auto">
         <div className="m-auto mb-5  max-2xl:text-base max-lg:text-sm">
-          <h1 className="text-4xl mb-12 text-center max-lg:pt-10">
+          <h1 className="text-4xl mb-12 text-center max-lg:pt-10 pt-4">
             Cambios en la aplicación
           </h1>
           <section>
@@ -63,10 +63,10 @@ function SobreCambios() {
             </dl>
           </section>
         </div>
-        <div className="flex justify-around">
+        <div className="flex justify-around pb-3">
           <a
             target="_blank"
-            href="#"
+            href="https://github.com/ToledoFernando/newElectronPlayer/tree/master"
             className="bg-zinc-950 border-gray-200 border-2 py-2 px-4 hover:bg-zinc-100 hover:text-zinc-900 transition-all duration-300 text-sm rounded-sm"
             rel="noopener noreferrer"
           >
@@ -83,11 +83,11 @@ function SobreCambios() {
       <span className="absolute bg-red-500 text-white text-xl w-96 h-96 max-md:-right-28 -top-40 right-0  blur-3xl rounded-full"></span>
       <span className="absolute bg-slate-800 text-white text-xl w-5/12 h-96 max-md:-left-0 max-md:-bottom-4 max-md:bg-slate-600 -top-40 -left-20 blur-3xl rounded-full"></span>
       <span className="absolute bg-green-600 bg-opacity-10 text-white text-xl w-5/12 h-96 max-md:-left-0 max-md:-bottom-4 max-md:bg-green-600 -bottom-40 -left-20 blur-3xl rounded-full"></span>
-      <div className=" relative w-6/12  max-lg:w-full max-sm:w-screen max-lg:-right-9  max-md:w-full  overflow-hidden lg:h-screen lg:w-8/12  max-lg:h-30">
+      <div className=" relative w-6/12 lg:-bottom-28 max-lg:w-full max-sm:w-screen max-lg:-right-9  max-md:w-full  overflow-hidden lg:h-screen lg:w-8/12  max-lg:h-30">
         <Image
-          className="max-lg:relative  lg:absolute lg:scale-150 max-sm:max-w-xl max-lg:top-5 max-md:-left-0 lg:-right-48 lg:bottom-10 rounded-3xl shadow-lg shadow-black hover:shadow-xl hover:shadow-black transition-all duration-300 hover:-translate-y-1"
-          src="/ElectronPlayer9.png"
-          alt="image"
+          className="max-lg:relative  lg:absolute lg:scale-150 max-sm:max-w-xl max-lg:top-5 max-md:-left-0 lg:-right-48 lg:bottom-16 rounded-3xl shadow-lg shadow-black hover:shadow-xl hover:shadow-black transition-all duration-300 hover:-translate-y-1"
+          src="https://firebasestorage.googleapis.com/v0/b/electronplayer-84128.appspot.com/o/ElectronPlayer9.png?alt=media&token=d1395ef0-fb6a-42f5-9ff8-4bff472f458c&_gl=1*1o226d1*_ga*MTk1NDIzNDg2NS4xNjg2NDU4NjM0*_ga_CW55HF8NVT*MTY4NjQ1ODYzMy4xLjEuMTY4NjQ1OTUyMy4wLjAuMA.."
+          alt="About Change - Page"
           width={1000}
           height={800}
         />
