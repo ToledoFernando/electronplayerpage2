@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ElectronPlayer",
+  title: "ElectronPlayer | Escucha musica Gratis",
   description:
     "ElectronPlayer - Reproductor de música local y en línea. Descubre novedades, cambios y actualizaciones. Descarga música y disfruta de un reproductor de código abierto.",
   robots: "index, follow",
